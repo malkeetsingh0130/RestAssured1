@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="4847" started-at="2022-03-16T07:39:45Z" finished-at="2022-03-16T07:39:50Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="4847" started-at="2022-03-16T07:39:45Z" finished-at="2022-03-16T07:39:50Z">
+      <class name="RestTesting.Trello">
+        <test-method status="PASS" signature="createBoard()[pri:0, instance:RestTesting.Trello@a48474]" name="createBoard" duration-ms="3075" started-at="2022-03-16T13:09:45Z" finished-at="2022-03-16T13:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method status="PASS" signature="getBoard()[pri:1, instance:RestTesting.Trello@a48474]" name="getBoard" duration-ms="781" started-at="2022-03-16T13:09:48Z" finished-at="2022-03-16T13:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoard -->
+        <test-method status="PASS" signature="DeleteBoard()[pri:2, instance:RestTesting.Trello@a48474]" name="DeleteBoard" duration-ms="980" started-at="2022-03-16T13:09:49Z" finished-at="2022-03-16T13:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBoard -->
+      </class> <!-- RestTesting.Trello -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
